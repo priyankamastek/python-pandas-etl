@@ -1,0 +1,21 @@
+order_id,customer_id,order_date,product,quantity,unit_price,status,country
+1001,C001,2026-10-01,Laptop Stand,2,29.99,shipped,UK
+1002,C002,2026-10-01,USB-C Hub,1,45.50,SHIPPED,UK
+1003,C003,01/10/2026,Webcam,1,59.00,Shipped ,United Kingdom
+1004,C001,2026-10-01,Keyboard,1,89.99,delivered,UK
+1005,,2026-10-01,Mouse,3,19.99,shipped,UK
+1006,C004,2026-10-02,Monitor Arm,1,£74.00,shipped,Ireland
+1007,C005,2026-10-02,Laptop Stand,-1,29.99,returned,UK
+1008,C006,Oct 2 2026,Webcam,two,59.00,shipped,UK
+1009,C002,2026-10-02,USB-C Hub,1,45.50,cancelled,UK
+1009,C002,2026-10-02,USB-C Hub,1,45.50,cancelled,UK
+1010,C007,2026-10-03,Headset,1,,shipped,Germany
+1011,C008,2026-10-03,Keyboard,2,89.99,pending,uk
+1012,C009,2026-13-03,Mouse,1,19.99,shipped,UK
+1013,C003,2026-10-03,Monitor Arm,1,74.00,delivered,UK
+1014,C010,2026-10-04,Laptop Stand,1,29.99,SHIPPED,France
+1015,C011,2026-10-04,Webcam,1,59.00,shipped,UK
+
+1016,C001,2026-10-04,Headset,1,129.00,delivered,UK
+1017,C012,2026-10-04,USB-C Hub,5,45.50,shipped,Netherlands
+1018,C099,2026-10-04,Keyboard,1,89.99,shipped,UK

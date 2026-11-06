@@ -4,8 +4,8 @@
 import string
 
 # Define the generate_email function
-def generate_email(full_name):
-    name_parts = []
+def generate_email(full_name:str) -> str:
+    name_parts = [] #list type
     name_parts = full_name.split()
     print(name_parts)
     email = name_parts[0].lower() + '.' + name_parts[1].lower() + '@techcompany.com'
@@ -14,11 +14,12 @@ def generate_email(full_name):
     return email
 
 
-def validate_password(password):
+def validate_password(password) -> bool:
     # Check if password is at least 8 characters long
     if len(password) >= 8:
         # Check if password contains a special character
         for char in password:
+            print (char)
             if char in string.punctuation:
                 return True
     return False
@@ -35,6 +36,13 @@ def clean_text(text, lower=True):
         # Apply lowercase transformation
         return clean_text.lower()
 
+# *args = list of values 
+def calculate_sum(*args):
+    print(f'argument list - {args}')
+    total=0
+    total=sum(args)
+    print (total)
+    
 # Runs only when this file is executed directly, not when it is imported
 if __name__ == "__main__":
     # Generate Email
@@ -47,7 +55,10 @@ if __name__ == "__main__":
     #is_valid = validate_password("hgtr@8uyt")
     #print("Is the password valid? ", is_valid)
     
-    product = 'Wireless Mouse'
+    #product = 'Wireless Mouse'
     # Test with default behavior
-    print(clean_text(text=product, lower=False))
+    #print(clean_text(text=product))
+    
+     calculate_sum(10, 30, 89, 67)
+
 

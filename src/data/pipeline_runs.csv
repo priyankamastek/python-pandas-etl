@@ -1,0 +1,19 @@
+run_id,job,start_time,end_time,status,rows_loaded,error_message
+R001,orders_load,2026-10-01 06:00:05,2026-10-01 06:04:10,success,5,
+R002,customers_sync,2026-10-01 06:05:00,2026-10-01 06:06:20,success,12,
+R003,payments_load,2026-10-01 06:10:00,2026-10-01 06:19:45,success,430,
+R004,inventory_refresh,2026-10-01 06:20:00,2026-10-01 06:21:05,failed,,Connection timed out
+R005,daily_report,2026-10-01 07:00:00,2026-10-01 07:02:30,success,1,
+R006,orders_load,2026-10-02 06:00:03,2026-10-02 06:03:40,success,5,
+R007,customers_sync,2026-10-02 06:05:02,2026-10-02 06:05:50,success,12,
+R008,payments_load,2026-10-02 06:10:01,2026-10-02 06:35:12,success,455,
+R009,inventory_refresh,2026-10-02 06:20:00,2026-10-02 06:20:40,failed,,Connection timed out
+R010,inventory_refresh,2026-10-02 06:45:00,2026-10-02 06:46:30,success,980,
+R011,daily_report,2026-10-02 07:00:00,2026-10-02 07:01:55,success,1,
+R012,orders_load,2026-10-03 06:00:02,2026-10-03 06:00:09,failed,,Schema check failed: missing column quantity
+R013,customers_sync,2026-10-03 06:05:00,2026-10-03 06:06:10,success,13,
+R014,payments_load,2026-10-03 06:10:00,2026-10-03 06:18:20,success,441,
+R015,inventory_refresh,2026-10-03 06:20:00,2026-10-03 06:21:15,success,975,
+R016,daily_report,2026-10-03 07:00:00,2026-10-03 07:00:04,failed,,No data for orders_load
+R017,orders_load,2026-10-03 07:30:00,2026-10-03 07:34:00,success,4,
+R018,daily_report,2026-10-03 07:40:00,2026-10-03 07:42:10,success,1,
