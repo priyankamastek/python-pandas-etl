@@ -1,3 +1,5 @@
+# Class - acts as a templates (variables and functions)
+# Object - instance (s) of the class that will have variables and functions
 class Employee:
    # encapsulation - wrap - variables + functions (methods)
    # variables - class variables and instance variables are assigned to objects
